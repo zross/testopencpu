@@ -14,5 +14,5 @@
 #   Test Package:              'Cmd + Shift + T'
 
 hello <- function(x = 99) {
-  return(c(1, 2, 3, 4, 5))
+  return(c(1, 2, 3, 4, 5, x))
 }
