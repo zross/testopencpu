@@ -13,6 +13,6 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
-hello <- function() {
-  "zev says hello"
+hello <- function(x) {
+  return(paste("zev says hello", x))
 }
