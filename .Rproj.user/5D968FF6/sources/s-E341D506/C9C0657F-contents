@@ -1,0 +1,2 @@
+mydata <- data.frame(a = 1:20, b= rnorm(20))
+usethis::use_data(mydata)
